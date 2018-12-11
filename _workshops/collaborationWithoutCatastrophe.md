@@ -6,7 +6,7 @@ layout: default
 
 ---
 
-# COLLABORATION WITHOUT CATASTROPHE: EXTENDING NEOPIXELRACER: EXPERIENCE BUILDING BIGGER, COOLER, SIMPLER COLLABORATIVE PROJECTS USING MICRO:BITS, MICROPYTHON, AND RADIO MESSAGING
+# Workshop: Collaboration without catastrophe: Experience building bigger, cooler, simpler collaborative projects using micro:bits, MicroPython, and radio messaging
 
 This is a [proposal for a Education Summit workshop for educators]({{page.link}}) (Sunday, 50 mins).  (This was accepted, but in the end we only ran the corresponding youth-day workshop.)
 
