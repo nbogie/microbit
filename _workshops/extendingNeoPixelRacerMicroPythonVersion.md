@@ -3,9 +3,11 @@ title: Adding Sound and Remote-Control to NeoPixelRacer
 link: https://2018.hq.pyconuk.org/cfp/proposals/E70D/
 proglang: micropython
 status: totidy
+layout: default
+
 ---
 
-# ADDING SOUND AND REMOTE CONTROL TO MICRO:BIT NEOPIXELRACER: MICROPYTHON AND RADIO MESSAGING FOR THE BBC MICRO:BIT
+# Adding sound and remote control to micro:bit neopixelracer: MicroPython and radio-messaging for the bbc micro:bit
 
 This is a [proposal for a Education Summit workshop for young coders]({{page.link}}) (Saturday, 50 mins).
 
@@ -24,7 +26,7 @@ Note: to get the most out of this workshop it is best if you've done a little bi
 Note: We won't be programming the actual NeoPixels in this workshop, but we have made the code for that part available for anyone to reuse and learn from.
 
 Is there anything else we should know about your proposal?
-The workshop will be led by two young coders, Femi and Nishka. Neill (the mentor) hopes to be silent support during delivery but may facilitate in discussions and time-keeping as necessary.
+The workshop will be led by two young coders, F and N. Neill (the mentor) hopes to be silent support during delivery but may facilitate in discussions and time-keeping as necessary.
 
 We recommend the maximum number of participants for this workshop is 12.
 
