@@ -1,4 +1,8 @@
 theme: jekyll-theme-leap-day
+title: Neill's micro:bit resources
+description: challenges, demos, and discussion
+lang: en
+show_downloads: false
 
 collections:
     activities:

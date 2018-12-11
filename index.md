@@ -1,6 +1,20 @@
 ## Neill's micro:bit resources
 
-# micro:bit HOWTOs
+# Demos
+
+Things to inspire ideas at dojos, jams, code clubs.  Some of these also have activities designed for them.
+{% for thing in site.demos %}
+
+## [{{ thing.title }}]({{ thing.link }})
+
+<p class="post-excerpt">{{ thing.description | truncate: 160 }}</p>
+<p>language: {{ thing.proglang }}</p>
+
+
+{% endfor %}   
+
+
+# How-tos
 
 {% for thing in site.howtos %}
 
@@ -22,19 +36,6 @@
 <p>language: {{ thing.proglang }}</p>
 
 {% endfor %}    
-
-# Demos
-
-Things to inspire ideas at dojos, jams, code clubs.  Some of these also have activities designed for them.
-{% for thing in site.demos %}
-
-## [{{ thing.title }}]({{ thing.link }})
-
-<p class="post-excerpt">{{ thing.description | truncate: 160 }}</p>
-<p>language: {{ thing.proglang }}</p>
-
-
-{% endfor %}   
 
 # Discussions
 

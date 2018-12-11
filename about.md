@@ -6,10 +6,13 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
 
 [markdown help](markdownHelp)
 
+# Collections
+
+This site uses [Collections in Jekyll](https://jekyllrb.com/docs/collections/).  In understanding them, [this article](https://ben.balter.com/2015/02/20/jekyll-collections/) was useful.
+
 # Supported themes
 
-GitHub Pages supports the following themes:
-
+GitHub Pages supports [these themes](https://pages.github.com/themes/):
 * Architect
 * Cayman
 * Dinky
@@ -24,7 +27,7 @@ GitHub Pages supports the following themes:
 * Tactile
 * Time machine
 
-https://pages.github.com/themes/
+
 
 # Filters
 
