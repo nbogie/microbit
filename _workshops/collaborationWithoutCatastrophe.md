@@ -1,6 +1,7 @@
 ---
 title: Collaboration without Catastrophe, with micro:bit radio messaging
 link: https://2018.hq.pyconuk.org/cfp/proposals/7956/
+status: totidy
 ---
 
 # COLLABORATION WITHOUT CATASTROPHE: EXTENDING NEOPIXELRACER: EXPERIENCE BUILDING BIGGER, COOLER, SIMPLER COLLABORATIVE PROJECTS USING MICRO:BITS, MICROPYTHON, AND RADIO MESSAGING
