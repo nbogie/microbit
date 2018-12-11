@@ -1,6 +1,7 @@
 ---
 title: Adding Sound and Remote-Control to NeoPixelRacer
 link: https://2018.hq.pyconuk.org/cfp/proposals/E70D/
+proglang: micropython
 ---
 
 # ADDING SOUND AND REMOTE CONTROL TO MICRO:BIT NEOPIXELRACER: MICROPYTHON AND RADIO MESSAGING FOR THE BBC MICRO:BIT

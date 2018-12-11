@@ -7,6 +7,7 @@
 ## [{{ thing.title }}]({{ thing.link }})
 
 <p class="post-excerpt">{{ thing.description | truncate: 160 }}</p>
+<p>language: {{ thing.proglang }}</p>
 
 {% endfor %}   
 
@@ -18,6 +19,7 @@
 ## [{{ thing.title }}]({{ thing.link }})
 
 <p class="post-excerpt">{{ thing.description | truncate: 160 }}</p>
+<p>language: {{ thing.proglang }}</p>
 
 {% endfor %}    
 
@@ -29,6 +31,8 @@ Things to inspire ideas at dojos, jams, code clubs.  Some of these also have act
 ## [{{ thing.title }}]({{ thing.link }})
 
 <p class="post-excerpt">{{ thing.description | truncate: 160 }}</p>
+<p>language: {{ thing.proglang }}</p>
+
 
 {% endfor %}   
 
