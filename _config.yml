@@ -2,7 +2,7 @@ theme: jekyll-theme-leap-day
 
 collections:
     activities:
-        output: true
+        output: false
         permalink: /activities/:path/
     demos:
         output: false
