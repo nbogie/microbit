@@ -40,7 +40,7 @@ Things to inspire ideas at dojos, jams, code clubs.  Some of these also have act
 
 {% for thing in site.discussions %}
 
-## [{{ thing.title }}]({{ thing.url }})
+## [{{ thing.title }}]({{ thing.url | prepend: site.baseurl }})
 
 <p class="post-excerpt">{{ thing.description | truncate: 160 }}</p>
 
@@ -50,7 +50,7 @@ Things to inspire ideas at dojos, jams, code clubs.  Some of these also have act
 
 {% for thing in site.workshops %}
 
-## [{{ thing.title }}]({{ thing.url }})
+## [{{ thing.title }}]({{ thing.url | prepend: site.baseurl }})
 
 <p class="post-excerpt">{{ thing.description | truncate: 160 }}</p>
 
