@@ -45,6 +45,7 @@ Things to inspire ideas at dojos, jams, code clubs.  Some of these also have act
 {% endfor %}   
 
 # Workshops - rough notes
+
 {% for thing in site.workshops %}
 
 ## [{{ thing.title }}]({{ thing.url }})
