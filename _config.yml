@@ -13,6 +13,9 @@ collections:
     howtos:
         output: false
         permalink: /howtos/:path/
+    kit:
+        output: true
+        permalink: /kit/:path/
     workshops:
         output: true
         permalink: /workshops/:path/

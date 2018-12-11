@@ -55,3 +55,13 @@ Things to inspire ideas at dojos, jams, code clubs.  Some of these also have act
 <p class="post-excerpt">{{ thing.description | truncate: 160 }}</p>
 
 {% endfor %}   
+
+# Kit - some recommendations
+
+{% for thing in site.kit %}
+
+## [{{ thing.title }}]({{ thing.url | prepend: site.baseurl }})
+
+<p class="post-excerpt">{{ thing.description | truncate: 160 }}</p>
+
+{% endfor %}   
