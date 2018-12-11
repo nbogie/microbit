@@ -1,37 +1,54 @@
-## Welcome to GitHub Pages
+## Neill's micro:bit resources
 
-You can use the [editor on GitHub](https://github.com/nbogie/microbit/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+{{ "Hello World!" | downcase }}
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+# micro:bit HOWTOs
 
-### Markdown
+{% for thing in site.howtos %}
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## [{{ thing.title }}]({{ thing.link }})
 
-```markdown
-Syntax highlighted code block
+<p class="post-excerpt">{{ thing.description | truncate: 160 }}</p>
 
-# Header 1
-## Header 2
-### Header 3
+{% endfor %}   
 
-- Bulleted
-- List
 
-1. Numbered
-2. List
+# Activities!
 
-**Bold** and _Italic_ and `Code` text
+{% for thing in site.activities %}
 
-[Link](url) and ![Image](src)
-```
+## [{{ thing.title }}]({{ thing.link }})
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+<p class="post-excerpt">{{ thing.description | truncate: 160 }}</p>
 
-### Jekyll Themes
+{% endfor %}    
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/nbogie/microbit/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+# Demos
 
-### Support or Contact
+Things to inspire ideas at dojos, jams, code clubs.  Some of these also have activities designed for them.
+{% for thing in site.demos %}
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+## [{{ thing.title }}]({{ thing.link }})
+
+<p class="post-excerpt">{{ thing.description | truncate: 160 }}</p>
+
+{% endfor %}   
+
+# Discussions
+
+{% for thing in site.discussions %}
+
+## [{{ thing.title }}]({{ thing.url }})
+
+<p class="post-excerpt">{{ thing.description | truncate: 160 }}</p>
+
+{% endfor %}   
+
+# Workshops - rough notes
+{% for thing in site.workshops %}
+
+## [{{ thing.title }}]({{ thing.url }})
+
+<p class="post-excerpt">{{ thing.description | truncate: 160 }}</p>
+
+{% endfor %}   

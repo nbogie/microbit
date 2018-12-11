@@ -1,7 +1,18 @@
-theme: jekyll-theme-dinky
+theme: jekyll-theme-cayman
 
 collections:
-    - howtos
-    - reviews
-    - recommendations
-    - activities
+    activities:
+        output: true
+        permalink: /activities/:path/
+    demos:
+        output: false
+        permalink: /demos/:path/
+    discussions:
+        output: true
+        permalink: /discussions/:path/
+    howtos:
+        output: false
+        permalink: /howtos/:path/
+    workshops:
+        output: true
+        permalink: /workshops/:path/
