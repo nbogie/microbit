@@ -1,5 +1,12 @@
 ## Neill's micro:bit resources
 
+
+# Gotchas (Common Mistakes)
+
+## [Zip Halo Gotchas](zipHaloGotchas)
+
+Some common mistakes with the excellent Kitronik Zip Halo board.
+
 # Demos
 
 Things to inspire ideas at dojos, jams, code clubs.  Some of these also have activities designed for them.
